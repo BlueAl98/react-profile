@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --light-black: #121212;
+    --electric-blue: #1E90FF;
+    --royal-blue: #0056D2;
+    --sp-black: #242424;
+  }
