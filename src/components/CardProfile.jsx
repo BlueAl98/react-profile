@@ -4,13 +4,13 @@ import React from "react";
 function CardProfile() {
     return ( 
 
-<div className="bg-card text-tm max-w-sm mx-auto p-9  rounded-2xl shadow-2xs text-center space-y-4">
+<div className="bg-card text-tm max-w-sm mx-auto p-9 border-4 rounded-2xl shadow-2xs text-center space-y-4">
   {/* Profile Image */}
   <div className="flex justify-center">
     <img
       src="https://avatars.githubusercontent.com/u/125913672?s=400&u=2b81ec6b0d6bbc9f18a1c730cb1d964c5f37c982&v=4"
       alt="Profile"
-      className="w-50 h-50 rounded-full border-4  shadow-md object-cover"
+      className="w-50 h-50 rounded-full  border-4  shadow-md object-cover"
     />
   </div>
 
@@ -19,7 +19,7 @@ function CardProfile() {
 
   {/* Description */}
   <p className="text-md text-tm opacity-80">
-    Full Stack Developer & UI Designer. Passionate about clean code and beautiful interfaces.
+    Full Stack Developer. Passionate about clean code and beautiful interfaces.
   </p>
 
   {/* Social Icons */}

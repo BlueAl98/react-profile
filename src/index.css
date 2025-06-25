@@ -5,7 +5,7 @@
   --text-main: #000000;
   --bg-card: #e6e6e9;
   --button: #1e90ff;
-
+  --bg-inverse: #000000;
 }
 
 .dark {
@@ -13,6 +13,7 @@
   --text-main: #ffffff;
   --bg-card: #121214;
   --button: #0056d2;
+  --bg-inverse: #ffffff;
 }
 
 @layer utilities {
@@ -31,5 +32,10 @@
   .bg-btn {
     background-color: var(--button);
   }
+
+  .bg-inv {
+    background-color: var(--bg-inverse);
+  }
+
 }
 
