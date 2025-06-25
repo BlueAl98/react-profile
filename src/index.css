@@ -1,15 +1,35 @@
 @import "tailwindcss";
 
+.light {
+  --bg-main: #ffffff;
+  --text-main: #000000;
+  --bg-card: #e6e6e9;
+  --button: #1e90ff;
 
-html, body, #root {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+}
+
+.dark {
+  --bg-main: #000000;
+  --text-main: #ffffff;
+  --bg-card: #121214;
+  --button: #0056d2;
+}
+
+@layer utilities {
+  .bg-tm {
+    background-color: var(--bg-main);
   }
 
-  :root {
-    --light-black: #121212;
-    --electric-blue: #1E90FF;
-    --royal-blue: #0056D2;
-    --sp-black: #242424;
+  .bg-card {
+    background-color: var(--bg-card);
   }
+
+  .text-tm {
+    color: var(--text-main);
+  }
+
+  .bg-btn {
+    background-color: var(--button);
+  }
+}
+
