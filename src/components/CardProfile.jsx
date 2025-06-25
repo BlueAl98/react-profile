@@ -4,7 +4,13 @@ import React from "react";
 function CardProfile() {
     return ( 
 
-<div className="bg-card text-tm max-w-sm mx-auto p-9 border-4 rounded-2xl shadow-2xs text-center space-y-4">
+<div className="bg-card w-full justify-center text-tm 
+ p-9 border-4 rounded-2xl 
+ shadow-2xs text-center 
+ space-y-4
+ lg:w-1/4
+
+">
   {/* Profile Image */}
   <div className="flex justify-center">
     <img

@@ -12,10 +12,12 @@ function App() {
 
         <TopBar tem = {theme} setTem = {() => setTheme(theme === 'light' ? 'dark' : 'light')}/> 
 
-       <div className="flex w-full justify-center h-150 mt-9 lg:w-1/4 lg:m-9 lg:justify-baseline">
-       
+       <div className="flex flex-col lg:flex-row lg:justify-start p-6  ">
         <CardProfile/>
-         
+          
+          <div className="flex flex-1  bg-amber-400">
+           
+          </div>
 
         </div>
        
