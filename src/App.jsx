@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import CardProfile from "./components/CardProfile";
 import TopBar from "./components/TopBar";
-
+import CardDescription from "./components/CardDescription";
+import CardSkills from "./components/CardSkills";
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -14,11 +15,13 @@ function App() {
 
        <div className="flex flex-col lg:flex-row lg:justify-start p-6  ">
         <CardProfile/>
-          
-          <div className="flex flex-1  bg-amber-400">
-           
-          </div>
-
+        
+        <div className="flex flex-1 flex-col m-1  items-center">
+            <CardDescription/>   
+             <CardSkills/>
+        </div>
+      
+       
         </div>
        
     </div>
