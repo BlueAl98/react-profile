@@ -3,7 +3,7 @@ import ButttonComp from "./ButtonComp";
 
 function CardDescription() {
     return ( 
-        <div className="  h-fit w-full border-2 rounded-2xl sm:ms-3 p-5 space-y-5">
+        <div className="bg-card h-fit w-full  rounded-2xl sm:ms-3 p-5 space-y-5">
              <h2 className="text-gray-400">Hello There!</h2>
            
              <h1 className="text-3xl leading-relaxed">I’m passionate about software development and building elegant, functional user experiences.

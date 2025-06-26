@@ -17,7 +17,7 @@ function CardSkills() {
     return ( 
              
 
-<div className="flex h-50 w-full sm:w-150  flex-col rounded-2xl ms-3 p-5 overflow-hidden">
+<div className="flex h-50 w-full  sm:w-150  flex-col rounded-2xl ms-3 p-5 overflow-hidden">
 
 <h1 className="text-2xl leading-relaxed mb-4 font-semibold text-tm">My Skills</h1>
        

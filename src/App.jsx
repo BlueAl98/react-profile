@@ -4,6 +4,7 @@ import CardProfile from "./components/CardProfile";
 import TopBar from "./components/TopBar";
 import CardDescription from "./components/CardDescription";
 import CardSkills from "./components/CardSkills";
+import CardExperince from "./components/CardExperience";
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -17,13 +18,21 @@ function App() {
        <div className="flex flex-col  lg:flex-row lg:justify-start p-6 space-y-5  ">
         <CardProfile/>
         
-        <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full">
+        <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full ">
             <CardDescription/>      
             <CardSkills/>
         </div>
+      
         </div>
        
-      
+        <div className="p-4 ">
+           <CardExperince/>
+        </div>
+       
+         
+
+
+
     </div>
   )
 }
