@@ -5,6 +5,8 @@ import TopBar from "./components/TopBar";
 import CardDescription from "./components/CardDescription";
 import CardSkills from "./components/CardSkills";
 import CardExperince from "./components/CardExperience";
+import data from "./data/data.json"
+
 
 function App() {
   const [theme, setTheme] = useState('dark')
@@ -16,7 +18,7 @@ function App() {
         <TopBar tem = {theme} setTem = {() => setTheme(theme === 'light' ? 'dark' : 'light')}/> 
 
        <div className="flex flex-col  lg:flex-row lg:justify-start p-6 space-y-5  ">
-        <CardProfile/>
+        <CardProfile profile={data.profile}/>
         
         <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full ">
             <CardDescription/>      

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function CardProfile() {
+function CardProfile({profile}) {
     return ( 
 
 <div className="bg-card w-full justify-center text-tm 
@@ -21,7 +21,7 @@ function CardProfile() {
   </div>
 
   {/* Name */}
-  <h2 className="text-3xl font-semibold">Najib Alejandro Loera Rodriguez</h2>
+  <h2 className="text-3xl font-semibold">{profile.name}</h2>
 
   {/* Description */}
   <p className="text-md text-tm opacity-80">

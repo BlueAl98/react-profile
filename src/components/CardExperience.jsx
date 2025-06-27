@@ -11,25 +11,28 @@ function CardExperince() {
     const [selected, setSelected] = useState("Empresas");
     const tabs = ["Empresas", "Projects"];
 
-   /* useEffect(() => {
-        if (isModalOpen) {
-          document.body.style.overflow = 'hidden';
-        } else {
-          document.body.style.overflow = '';
+
+    const renderContent = () => {
+        if (selected === "Empresas") {
+          return (
+            <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
+              <ItemExperience imageUrl={"https://www.informaticaelectoral.com/images/logo_informatica.png"} />
+              <ItemExperience imageUrl={"https://www.ie-soluciones.com/images/logo_iesoluciones.png"} />
+              <ItemExperience imageUrl={lgShitsu} />
+            </div>
+          );
+        } else if (selected === "Projects") {
+          return (
+            <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
+              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/5968/5968672.png"} />
+              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/174/174857.png"} />
+              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/732/732212.png"} />
+            </div>
+          );
         }
-    
-        // Clean up when component unmounts
-        return () => {
-          document.body.style.overflow = '';
-        };
-      }, [isModalOpen]);
-      
-       <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
-            <h2>Transparent Overlay</h2>
-            <p>This modal overlays your existing content with transparency.</p>
-        </Modal>
-      
-      */
+      };
+
+
 
     return ( 
         <div className="flex bg-card  rounded-2xl p-3 flex-col">
@@ -48,14 +51,14 @@ function CardExperince() {
        <BarExperience tabs={tabs} selected={selected} setSelected={setSelected}/>
 
     <br />
-         <div className=" grid w-full  grid-cols-1 md:grid-cols-3   gap-6">
-            <ItemExperience imageUrl={"https://www.informaticaelectoral.com/images/logo_informatica.png"}/>
-            <ItemExperience imageUrl={"https://www.ie-soluciones.com/images/logo_iesoluciones.png"}/>
-            <ItemExperience imageUrl={lgShitsu}/>
-         </div>
+    
+    <div>
+        {renderContent()}
+      </div>
 
-        </div>
+    </div>
      );
 }
 
 export default CardExperince;
+

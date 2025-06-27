@@ -3,6 +3,28 @@ import React from "react";
 export default function Modal({ isOpen, onClose, children }) {
     if (!isOpen) return null;
   
+ // In case use
+ /* useEffect(() => {
+        if (isModalOpen) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = '';
+        }
+    
+        // Clean up when component unmounts
+        return () => {
+          document.body.style.overflow = '';
+        };
+      }, [isModalOpen]);
+      
+       <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)}>
+            <h2>Transparent Overlay</h2>
+            <p>This modal overlays your existing content with transparency.</p>
+        </Modal>
+      
+      */
+
+
     return (
         <div className={`fixed inset-0 flex items-center justify-center z-50 ${isOpen ? '' : 'pointer-events-none'}`}>
         {/* Transparent overlay */}
