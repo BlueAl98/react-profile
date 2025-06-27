@@ -13,8 +13,8 @@ function ItemExperience({imageUrl}) {
      
     return (  
 
-        <div className="flex flex-col space-y-6 bg-card rounded-2xl border-amber-500 border-1 w-full p-4 ">
-            <div >
+    <div className="flex flex-col space-y-6 bg-tm rounded-2xl drop-shadow-lg w-full p-4 transform transition-transform duration-300 hover:scale-105">
+     <div className="flex max-h-40">
             <img src={imageUrl}  />
             </div>
 
