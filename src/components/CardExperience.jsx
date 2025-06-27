@@ -3,11 +3,13 @@ import ItemExperience from "./ItemExperience";
 import { useState, useEffect } from "react";
 import Modal from "../modals/Modal"
 import lgShitsu from '../assets/lgShitsu.png';
-
+import BarExperience from "./BarExperience";
 
 function CardExperince() {
 
     const [isModalOpen, setModalOpen] = useState(false);
+    const [selected, setSelected] = useState("Empresas");
+    const tabs = ["Empresas", "Projects"];
 
    /* useEffect(() => {
         if (isModalOpen) {
@@ -41,8 +43,12 @@ function CardExperince() {
              </h2>
           </div>
        </div>
-<br />
-         <div className=" grid w-full  grid-cols-1 sm:grid-cols-3  gap-6">
+
+       
+       <BarExperience tabs={tabs} selected={selected} setSelected={setSelected}/>
+
+    <br />
+         <div className=" grid w-full  grid-cols-1 md:grid-cols-3   gap-6">
             <ItemExperience imageUrl={"https://www.informaticaelectoral.com/images/logo_informatica.png"}/>
             <ItemExperience imageUrl={"https://www.ie-soluciones.com/images/logo_iesoluciones.png"}/>
             <ItemExperience imageUrl={lgShitsu}/>
