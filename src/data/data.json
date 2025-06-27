@@ -1,6 +1,14 @@
 {
-   "profile": {
-       "name": "Najib Alejandro Loera Rodriguez",
-       "description": "Full Stack Developer. Passionate about clean code and beautiful interfaces."
-     } 
-}
+    "en": {
+      "profile": {
+        "name": "Najib Alejandro Loera Rodriguez",
+        "description": "Full Stack Developer. Passionate about clean code and beautiful interfaces."
+      }
+    },
+    "es": {
+      "profile": {
+        "name": "Najib Alejandro Loera Rodriguez",
+        "description": "Desarrollador Full Stack. Apasionado por el código limpio y las interfaces hermosas."
+      }
+    }
+  }

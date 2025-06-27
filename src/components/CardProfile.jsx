@@ -25,7 +25,7 @@ function CardProfile({profile}) {
 
   {/* Description */}
   <p className="text-md text-tm opacity-80">
-    Full Stack Developer. Passionate about clean code and beautiful interfaces.
+    {profile.description}
   </p>
 
   {/* Social Icons */}
