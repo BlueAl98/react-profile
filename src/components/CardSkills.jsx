@@ -27,7 +27,7 @@ function CardSkills() {
            key={index}
            className="flex flex-col items-center justify-center w-20 h-20  text-xl text-tm mx-2"
          >
-              <i className={`${skill.icon} text-4xl`}></i>
+              <i className={`${skill.icon} text-4xl hover:text-blue-500`}></i>
               <span className="text-sm mt-2">{skill.name}</span>
             </div>
           ))}

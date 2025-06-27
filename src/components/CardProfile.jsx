@@ -30,14 +30,11 @@ function CardProfile() {
 
   {/* Social Icons */}
   <div className="flex justify-center space-x-4 pt-2">
-    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-twitter text-2xl hover:text-blue-400"></i>
+    <a href="https://github.com/BlueAl98" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-github text-3xl hover:text-gray-500"></i>
     </a>
-    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-github text-2xl hover:text-gray-500"></i>
-    </a>
-    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-      <i className="fab fa-linkedin text-2xl hover:text-blue-600"></i>
+    <a href="https://linkedin.com/in/najib-alejandro-loera-rodríguez-219648194" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-linkedin text-3xl hover:text-blue-600"></i>
     </a>
   </div>
 </div>
