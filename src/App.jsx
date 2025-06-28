@@ -28,14 +28,14 @@ function App() {
         <CardProfile profile={lnDta.profile}/>
         
         <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full ">
-            <CardDescription/>      
+            <CardDescription desc={lnDta.description} />      
             <CardSkills/>
         </div>
       
         </div>
        
         <div className="p-4 ">
-           <CardExperince/>
+           <CardExperince exp={lnDta.experience}/>
         </div>
        
          

@@ -3,6 +3,7 @@ import React from "react";
 
 function ItemExperience({imageUrl}) {
 
+    console.log("image", imageUrl)
     const items = [
        " Desarrolle una aplicación para el registro de residencias universitarias, facilitando la conexión entre estudiantes y empresas"
         ,

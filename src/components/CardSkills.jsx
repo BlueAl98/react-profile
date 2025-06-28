@@ -17,10 +17,11 @@ function CardSkills() {
     return ( 
              
 
-<div className="flex h-50 w-full  sm:w-150  flex-col rounded-2xl ms-3 p-5 overflow-hidden">
+ <div className="flex h-50 w-full  flex-col rounded-2xl ms-3 p-5 overflow-hidden">
 
 <h1 className="text-2xl leading-relaxed mb-4 font-semibold text-tm">My Skills</h1>
        
+       <div className="max-w-200">
         <Marquee gradient={false} speed={40} pauseOnHover={false} style={{ width: "100%" }}>
           {skills.map((skill, index) => (
            <div
@@ -32,7 +33,7 @@ function CardSkills() {
             </div>
           ))}
         </Marquee>
-
+        </div>
       </div>
    
             

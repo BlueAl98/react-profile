@@ -23,6 +23,10 @@ function CardProfile({profile}) {
   {/* Name */}
   <h2 className="text-3xl font-semibold">{profile.name}</h2>
 
+  <p className="text-md text-tm opacity-90">
+    {profile.carrer}
+  </p>
+
   {/* Description */}
   <p className="text-md text-tm opacity-80">
     {profile.description}

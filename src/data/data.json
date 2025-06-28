@@ -2,13 +2,105 @@
     "en": {
       "profile": {
         "name": "Najib Alejandro Loera Rodriguez",
-        "description": "Full Stack Developer. Passionate about clean code and beautiful interfaces."
+        "carrer": "Computer Systems Engineer",
+        "description": "Full Stack Developer. Passionate about building innovative and high-performance applications."
+         
+    },
+       "description": {
+        "greeting" : "Hello There!",
+        "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
+        "status": "Currently accepting freelance projects",
+        "btnText": "Download CV" 
+     },
+     
+     "experience":{
+         "title": "Experience",
+         "info": "Take a look at my projects, certifications, and some of the companies I’ve collaborated with.",
+         "tabsTitle": ["Companies", "Projects"],
+         "cardsExperience": 
+            {
+              "projects": [
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                }     
+              ],
+              "companies":[
+                {
+                  "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
+                  "info" : "" 
+              },
+              {
+                  "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
+                  "info" : "" 
+              },
+              {
+                  "urlImage": "/lgShitsu.png",
+                  "info" : "" 
+              } 
+              ] 
+            }
+
       }
+     
+
     },
     "es": {
       "profile": {
         "name": "Najib Alejandro Loera Rodriguez",
-        "description": "Desarrollador Full Stack. Apasionado por el código limpio y las interfaces hermosas."
-      }
+        "carrer": "Ing. Sistemas Computacionales",
+        "description": "Desarrollador Full Stack. Apasionado por la creación de aplicaciones innovadoras y de alto rendimiento."
+      },
+      "description": {
+        "greeting" : "¡Hola!",
+        "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
+        "status": "Disponible para proyectos freelance",
+        "btnText": "Descargar CV" 
+    } ,
+     "experience":{
+        "title": "Experiencia",
+        "info": "Echa un vistazo a mis proyectos, certificados y algunas de las empresas con las que he colaborado.",
+        "tabsTitle": ["Empresas", "Proyectos"],
+        "cardsExperience": 
+            {
+              "projects": [
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "",
+                    "info" : "" 
+                }     
+              ],
+              "companies":[
+                {
+                    "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
+                    "info" : "" 
+                },
+                {
+                    "urlImage": "/lgShitsu.png",
+                    "info" : "" 
+                } 
+              ] 
+            }
+     }
+      
     }
   }

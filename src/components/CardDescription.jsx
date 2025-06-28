@@ -1,21 +1,19 @@
 import React from "react";
 import ButttonComp from "./ButtonComp";
 
-function CardDescription() {
+function CardDescription({desc}) {
     return ( 
         <div className="bg-card h-fit w-full  rounded-2xl sm:ms-3 p-5 space-y-5">
-             <h2 className="text-gray-400">Hello There!</h2>
+             <h2 className="text-gray-400">{desc.greeting}</h2>
            
-             <h1 className="text-3xl leading-relaxed">I’m passionate about software development and building elegant, functional user experiences.
-             I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems. </h1>
+             <h1 className="text-3xl leading-relaxed"> {desc.me}</h1>
             
-
              <div className="flex items-center gap-3">
               <span className="w-4 h-4 bg-green-500 rounded-full animate-pulse"></span>
-             <span className="text-medium text-green-600 font-medium">Available for Freelancing</span>
+             <span className="text-medium text-green-600 font-medium">{desc.status}</span>
              </div>
 
-              <ButttonComp icon= "fas fa-download" title={"Download CV"} event={() => console.log("here", "other")}/>
+              <ButttonComp icon= "fas fa-download" title={desc.btnText} event={() => console.log("here", "other")}/>
           
         </div>
 
