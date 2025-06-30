@@ -21,31 +21,31 @@
             {
               "projects": [
                 {
-                    "urlImage": "/logos/lgPcasilla.png",
+                    "urlImage": "./logos/lgPcasilla.png",
                     "info" : [""]
                 },
                 {
-                    "urlImage": "/logos/lgCelular.png",
+                    "urlImage": "./logos/lgCelular.png",
                     "info" : [""] 
                 },
                 {
-                  "urlImage": "/logos/lgTeco.png",
+                  "urlImage": "./logos/lgTeco.png",
                   "info" : [""] 
               },
               {
-                "urlImage": "/logos/lgSeg.png",
+                "urlImage": "./logos/lgSeg.png",
                 "info" : [""] 
             },
             {
-              "urlImage": "/logos/lgBodega.png",
+              "urlImage": "./logos/lgBodega.png",
               "info" : [""] 
           },
             {
-              "urlImage": "/logos/lgCepi.png",
+              "urlImage": "./logos/lgCepi.png",
               "info" : [""] 
           },
           {
-            "urlImage": "/logos/lgGas.png",
+            "urlImage": "./logos/lgGas.png",
             "info" : [""] 
         }
                     
@@ -70,7 +70,7 @@
                   ] 
               },
               {
-                  "urlImage": "/logos/lgShitsu.png",
+                  "urlImage": "./logos/lgShitsu.png",
                   "info" : [ "Collaborated on the development of an app that connects university students with companies offering housing.",
                   "Implemented a secure sign-up and login system with personalized user accounts.",
                   "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."] 
@@ -102,31 +102,31 @@
             {
               "projects": [
                 {
-                  "urlImage": "/logos/lgPcasilla.png",
+                  "urlImage": "./logos/lgPcasilla.png",
                   "info" : [""]
               },
               {
-                  "urlImage": "/logos/lgCelular.png",
+                  "urlImage": "./logos/lgCelular.png",
                   "info" : [""] 
               },
               {
-                "urlImage": "/logos/lgTeco.png",
+                "urlImage": "./logos/lgTeco.png",
                 "info" : [""] 
             },
             {
-              "urlImage": "/logos/lgSeg.png",
+              "urlImage": "./logos/lgSeg.png",
               "info" : [""] 
           },
           {
-            "urlImage": "/logos/lgBodega.png",
+            "urlImage": "./logos/lgBodega.png",
             "info" : [""] 
         },
           {
-            "urlImage": "/logos/lgCepi.png",
+            "urlImage": "./logos/lgCepi.png",
             "info" : [""] 
         },
         {
-          "urlImage": "/logos/lgGas.png",
+          "urlImage": "./logos/lgGas.png",
           "info" : [""] 
       }  
               ],
@@ -150,7 +150,7 @@
                     ] 
                 },
                 {
-                    "urlImage": "/logos/lgShitsu.png",
+                    "urlImage": "./logos/lgShitsu.png",
                     "info" : [
                       " Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
                       " Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
