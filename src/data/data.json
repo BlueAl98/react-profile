@@ -16,7 +16,7 @@
      "experience":{
          "title": "Experience",
          "info": "Take a look at my projects, certifications, and some of the companies I’ve collaborated with.",
-         "tabsTitle": ["Companies", "Projects"],
+         "tabsTitle": ["Companies", "Projects", "Certificates"],
          "cardsExperience": 
             {
               "projects": [
@@ -47,9 +47,7 @@
           {
             "urlImage": "./logos/lgGas.png",
             "info" : [""] 
-        }
-                    
-              ],
+        }],
               "companies":[
                 {
                   "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
@@ -75,6 +73,13 @@
                   "Implemented a secure sign-up and login system with personalized user accounts.",
                   "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."] 
               } 
+              ],
+              "certificates": [
+                {
+                  "urlImage": "./certificates/aws.pdf",
+                  "info" : "algo 2"
+                }
+
               ] 
             }
 
@@ -97,7 +102,7 @@
      "experience":{
         "title": "Experiencia",
         "info": "Echa un vistazo a mis proyectos, certificados y algunas de las empresas con las que he colaborado.",
-        "tabsTitle": ["Empresas", "Proyectos"],
+        "tabsTitle": ["Empresas", "Proyectos", "Certificados"],
         "cardsExperience": 
             {
               "projects": [
@@ -157,6 +162,13 @@
                       "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
                     ]
                 } 
+              ],
+              "certificates": [
+                {
+                  "urlImage": "./certificates/aws.pdf",
+                  "info" : "algo 2"
+                }
+
               ] 
             }
      }

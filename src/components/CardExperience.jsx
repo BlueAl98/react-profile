@@ -3,6 +3,7 @@ import ItemExperience from "./ItemExperience";
 import { useState, useEffect } from "react";
 import Modal from "../modals/Modal"
 import BarExperience from "./BarExperience";
+import ItemCertificate from "./ItemCertificate";
 
 function CardExperince({exp}) {
 
@@ -21,7 +22,7 @@ function CardExperince({exp}) {
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
                 exp.cardsExperience.companies.map( (com, index) => (
-                    <ItemExperience imageUrl={com.urlImage} info = {com.info} />
+                    <ItemExperience key={index} imageUrl={com.urlImage} info = {com.info} />
                 ) )
               }
         
@@ -32,10 +33,25 @@ function CardExperince({exp}) {
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
                exp.cardsExperience.projects.map( (com, index) => (
-                    <ItemExperience imageUrl={com.urlImage} info = {com.info} />
+                    <ItemExperience key={index} imageUrl={com.urlImage} info = {com.info} />
                 ) )
         }
             </div>
+          );
+        }else{
+          return (
+         <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
+          {
+           exp.cardsExperience.certificates.map( (cert, index) => (
+              <ItemCertificate
+              key={index}
+              downloadUrl={cert.urlImage}
+              imageUrl = {cert.urlImage}
+              title={"Something"}
+              />
+            ) )
+    }
+        </div>
           );
         }
       };
