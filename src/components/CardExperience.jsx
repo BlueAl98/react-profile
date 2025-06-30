@@ -21,7 +21,7 @@ function CardExperince({exp}) {
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
                 exp.cardsExperience.companies.map( (com, index) => (
-                    <ItemExperience imageUrl={com.urlImage} />
+                    <ItemExperience imageUrl={com.urlImage} info = {com.info} />
                 ) )
               }
         
@@ -30,9 +30,11 @@ function CardExperince({exp}) {
         } else if (selected === tabs[1]) {
           return (
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
-              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/5968/5968672.png"} />
-              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/174/174857.png"} />
-              <ItemExperience imageUrl={"https://cdn-icons-png.flaticon.com/512/732/732212.png"} />
+              {
+               exp.cardsExperience.projects.map( (com, index) => (
+                    <ItemExperience imageUrl={com.urlImage} info = {com.info} />
+                ) )
+        }
             </div>
           );
         }

@@ -1,16 +1,10 @@
 import React from "react";
 
 
-function ItemExperience({imageUrl}) {
+function ItemExperience({imageUrl, info}) {
 
-    console.log("image", imageUrl)
-    const items = [
-       " Desarrolle una aplicación para el registro de residencias universitarias, facilitando la conexión entre estudiantes y empresas"
-        ,
-       " Implementé un sistema de inicio de sesión, permitiendo a los usuarios crear cuentas seguras y personalizadas.",
-        
-        "Los usuarios podían subir su currículum, el cual era enviado automáticamente a las empresas registradas para su revisión."];
-
+    
+   
      
     return (  
 
@@ -22,7 +16,7 @@ function ItemExperience({imageUrl}) {
            <div className="text-justify leading-7 ">
 
            <ul className="list-disc pl-6 space-y-3">
-                 {items.map((item, index) => (
+                 {info.map((item, index) => (
               <li key={index}>{item}</li>
                 ))}
                  </ul>

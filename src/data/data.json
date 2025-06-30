@@ -22,29 +22,41 @@
               "projects": [
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""]
                 },
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""] 
                 },
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""]
                 }     
               ],
               "companies":[
                 {
                   "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
-                  "info" : "" 
+                  "info" : [
+                    " Contributed to the development of several key applications for the electoral process, including PREPCASILLA, a mobile app for real-time transmission of electoral reports.",
+
+                      "Implemented an automated image processing system to validate and crop official documents, ensuring accuracy and fast delivery.",
+
+                      "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency.",
+
+                      "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
+                  ] 
               },
               {
                   "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                  "info" : "" 
+                  "info" : [
+                    "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
+                  ] 
               },
               {
                   "urlImage": "/lgShitsu.png",
-                  "info" : "" 
+                  "info" : [ "Collaborated on the development of an app that connects university students with companies offering housing.",
+                  "Implemented a secure sign-up and login system with personalized user accounts.",
+                  "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."] 
               } 
               ] 
             }
@@ -74,29 +86,43 @@
               "projects": [
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""] 
                 },
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""] 
                 },
                 {
                     "urlImage": "",
-                    "info" : "" 
+                    "info" : [""]
                 }     
               ],
               "companies":[
                 {
                     "urlImage": "https://www.informaticaelectoral.com/images/logo_informatica.png",
-                    "info" : "" 
+                    "info" : [
+                     " Colaboré en el desarrollo de diversas aplicaciones clave para el proceso electoral, incluyendo PREPCASILLA, una app móvil para el envío en tiempo real de actas electorales.",
+
+                      "Implementé un sistema automatizado de procesamiento de imágenes para validar y recortar actas oficiales, garantizando precisión y rapidez en su entrega.",
+                      
+                      "Desarrollé una aplicación para el seguimiento de rutas de técnicos en instalaciones, mejorando la coordinación y eficiencia operativa."
+                      
+                    ] 
                 },
                 {
                     "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
-                    "info" : "" 
+                    "info" :  [
+                      "Creé una aplicación multiplataforma (Android e iOS) para la reserva de departamentos turísticos, mejorando la experiencia del usuario desde la búsqueda hasta la confirmación. Utilicé SwiftUI y Jetpack Compose para lograr una interfaz moderna, intuitiva y consistente."
+
+                    ] 
                 },
                 {
                     "urlImage": "/lgShitsu.png",
-                    "info" : "" 
+                    "info" : [
+                      " Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
+                      " Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
+                      "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
+                    ]
                 } 
               ] 
             }
