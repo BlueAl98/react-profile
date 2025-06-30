@@ -102,17 +102,33 @@
             {
               "projects": [
                 {
-                    "urlImage": "",
-                    "info" : [""] 
-                },
-                {
-                    "urlImage": "",
-                    "info" : [""] 
-                },
-                {
-                    "urlImage": "",
-                    "info" : [""]
-                }     
+                  "urlImage": "/logos/lgPcasilla.png",
+                  "info" : [""]
+              },
+              {
+                  "urlImage": "/logos/lgCelular.png",
+                  "info" : [""] 
+              },
+              {
+                "urlImage": "/logos/lgTeco.png",
+                "info" : [""] 
+            },
+            {
+              "urlImage": "/logos/lgSeg.png",
+              "info" : [""] 
+          },
+          {
+            "urlImage": "/logos/lgBodega.png",
+            "info" : [""] 
+        },
+          {
+            "urlImage": "/logos/lgCepi.png",
+            "info" : [""] 
+        },
+        {
+          "urlImage": "/logos/lgGas.png",
+          "info" : [""] 
+      }  
               ],
               "companies":[
                 {
