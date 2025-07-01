@@ -6,6 +6,7 @@
   --bg-card: #e6e6e9;
   --button: #1e90ff;
   --bg-inverse: #000000;
+  --bg-cardExp: #e6e6e9;
 }
 
 .dark {
@@ -14,9 +15,16 @@
   --bg-card: #121214;
   --button: #0056d2;
   --bg-inverse: #ffffff;
+  --bg-cardExp: #1F2937;
 }
 
 @layer utilities {
+
+   
+  .bg-cx {
+    background-color: var(--bg-cardExp);
+
+  }
   .bg-tm {
     background-color: var(--bg-main);
   }

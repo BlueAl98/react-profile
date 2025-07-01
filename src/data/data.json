@@ -39,15 +39,25 @@
               "projects": [
                 {
                     "urlImage": "./logos/lgPcasilla.png",
-                    "info" : [""]
-                },
-                {
-                    "urlImage": "./logos/lgCelular.png",
-                    "info" : [""] 
+                    "info" : [
+                      "Android application designed to securely transmit electoral records and their encrypted data to a web server.",
+                      "Real-time synchronization of over 20,000 images during the 2024 electoral process across eight states simultaneously.",
+                      "Offline functionality to ensure reliability in areas with poor internet connectivity.",
+                      "Pattern recognition system using OpenCV, capable of detecting and classifying four specific shapes to automatically crop the relevant area from images.",
+                      "Local data persistence on the Android device.",
+                      "Real-time geolocation transmission to the web server.",
+                      "User authentication system with secure login." 
+                    ]
                 },
                 {
                   "urlImage": "./logos/lgTeco.png",
-                  "info" : [""] 
+                  "info" : [
+                    "Android application Operations Technician developed for real-time route monitoring across eight states in Mexico.",
+                    "Offline functionality to support areas with limited internet connectivity.",
+                    "Synchronization of photos and relevant route information.",
+                    "Real-time geolocation tracking and transmission to the server.",
+                    "Digital signature module for supervisors within the app, with automatic synchronization when connectivity is restored."
+                  ] 
               },
               {
                 "urlImage": "./logos/lgSeg.png",
@@ -144,15 +154,25 @@
               "projects": [
                 {
                   "urlImage": "./logos/lgPcasilla.png",
-                  "info" : [""]
-              },
-              {
-                  "urlImage": "./logos/lgCelular.png",
-                  "info" : [""] 
+                  "info" : [
+                    "Aplicación Android desarrollada para el envío seguro de actas electorales y su respectiva información encriptada a un servidor web.",
+                    "Sincronización en tiempo real de más de 20,000 imágenes durante el proceso electoral 2024 en ocho estados simultáneamente.",
+                    "Modo offline para garantizar la funcionalidad en zonas con conectividad limitada.",
+                    "Sistema de reconocimiento de patrones mediante OpenCV, capaz de detectar y clasificar cuatro figuras específicas para el recorte automático del área relevante en las imágenes.",
+                    "Persistencia de datos local en el dispositivo Android.",
+                    "Envío en tiempo real de geolocalización al servidor web.",
+                    "Sistema de autenticación de usuarios mediante login."
+                  ]
               },
               {
                 "urlImage": "./logos/lgTeco.png",
-                "info" : [""] 
+                "info" : [
+                  "Aplicación Android Técnico Operativo desarrollada para el monitoreo en tiempo real de rutas en ocho estados de México.",
+                  "Funcionamiento offline para zonas con conectividad limitada.",
+                  "Sincronización de fotografías e información relevante del recorrido.",
+                  "Envío de geolocalización en tiempo real al servidor.",
+                  "Módulo de firma digital para responsables desde la aplicación, con sincronización automática al restablecer la conexión."
+                ] 
             },
             {
               "urlImage": "./logos/lgSeg.png",
