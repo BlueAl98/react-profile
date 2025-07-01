@@ -78,7 +78,24 @@
                 {
                   "urlImage": "./certificates/aws.pdf",
                   "info" : "algo 2"
+                },
+                {
+                  "urlImage": "./certificates/cludF.pdf",
+                  "info" : "algo 3"
+                },
+                {
+                  "urlImage": "./certificates/googleB.pdf",
+                  "info" : "algo 4"
+                },
+                {
+                  "urlImage": "./certificates/googleCloud.pdf",
+                  "info" : "algo 5"
+                },
+                {
+                  "urlImage": "./certificates/vw.pdf",
+                  "info" : "algo 6"
                 }
+              
 
               ] 
             }
@@ -167,8 +184,24 @@
                 {
                   "urlImage": "./certificates/aws.pdf",
                   "info" : "algo 2"
+                },
+                {
+                  "urlImage": "./certificates/cludF.pdf",
+                  "info" : "algo 3"
+                },
+                {
+                  "urlImage": "./certificates/googleB.pdf",
+                  "info" : "algo 4"
+                },
+                {
+                  "urlImage": "./certificates/googleCloud.pdf",
+                  "info" : "algo 5"
+                },
+                {
+                  "urlImage": "./certificates/vw.pdf",
+                  "info" : "algo 6"
                 }
-
+              
               ] 
             }
      }

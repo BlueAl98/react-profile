@@ -4,8 +4,6 @@ import React from "react";
 function ItemExperience({imageUrl, info}) {
 
     
-   
-     
     return (  
 
     <div className="flex flex-col items-center space-y-6 bg-tm rounded-2xl drop-shadow-lg w-full p-4 transform transition-transform duration-300 hover:scale-105">
