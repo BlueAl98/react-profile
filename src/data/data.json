@@ -27,13 +27,15 @@
         "greeting" : "Hello There!",
         "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
         "status": "Currently accepting freelance projects",
-        "btnText": "Download CV" 
+        "btnText": "Download CV",
+        "urlCV" : "./CV.pdf" 
      },
      
      "experience":{
          "title": "Experience",
          "info": "Take a look at my projects, certifications, and some of the companies I’ve collaborated with.",
          "tabsTitle": ["Companies", "Projects", "Certificates"],
+         "btnText" : "View",
          "cardsExperience": 
             {
               "projects": [
@@ -106,23 +108,28 @@
               "certificates": [
                 {
                   "urlPdf": "./certificates/aws.pdf",
-                  "info" : "algo 2"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "AWS Fundamentals: Going Cloud-Native"
                 },
                 {
                   "urlPdf": "./certificates/cludF.pdf",
-                  "info" : "algo 3"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Google Cloud Fundamentals: Core Infrastructure en Español"
                 },
                 {
                   "urlPdf": "./certificates/googleB.pdf",
-                  "info" : "algo 4"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Business Transformation with Google Cloud en Español"
                 },
                 {
                   "urlPdf": "./certificates/googleCloud.pdf",
-                  "info" : "algo 5"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Reliable Google Cloud Infrastructure: Design and Process"
                 },
                 {
                   "urlPdf": "./certificates/vw.pdf",
-                  "info" : "algo 6"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Networking and Security Architecture with VMware NSX"
                 }
               
 
@@ -143,10 +150,12 @@
         "greeting" : "¡Hola!",
         "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
         "status": "Disponible para proyectos freelance",
-        "btnText": "Descargar CV" 
+        "btnText": "Descargar CV",
+        "urlCV" : "./CV.pdf"  
     } ,
      "experience":{
         "title": "Experiencia",
+        "btnText" : "Ver",
         "info": "Echa un vistazo a mis proyectos, certificados y algunas de las empresas con las que he colaborado.",
         "tabsTitle": ["Empresas", "Proyectos", "Certificados"],
         "cardsExperience": 
@@ -225,24 +234,30 @@
               "certificates": [
                 {
                   "urlPdf": "./certificates/aws.pdf",
-                  "info" : "algo 2"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "AWS Fundamentals: Going Cloud-Native"
                 },
                 {
                   "urlPdf": "./certificates/cludF.pdf",
-                  "info" : "algo 3"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Google Cloud Fundamentals: Core Infrastructure en Español"
                 },
                 {
                   "urlPdf": "./certificates/googleB.pdf",
-                  "info" : "algo 4"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Business Transformation with Google Cloud en Español"
                 },
                 {
                   "urlPdf": "./certificates/googleCloud.pdf",
-                  "info" : "algo 5"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Reliable Google Cloud Infrastructure: Design and Process"
                 },
                 {
                   "urlPdf": "./certificates/vw.pdf",
-                  "info" : "algo 6"
+                  "imageUrl": "./logos/pdfBack.png",
+                  "title" : "Networking and Security Architecture with VMware NSX"
                 }
+              
               
               ] 
             }

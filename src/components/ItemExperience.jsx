@@ -12,7 +12,7 @@ function ItemExperience({imageUrl, info, date = null }) {
             </div>
            
             {date != null && (
-             <h4 className="flex w-full justify-end text-sm">{date}</h4>
+             <h4 className="flex w-full justify-end text-sm font-bold">{date}</h4>
               )}
           
            <div className="text-justify leading-7 ">

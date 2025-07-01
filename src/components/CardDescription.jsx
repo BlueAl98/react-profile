@@ -2,6 +2,19 @@ import React from "react";
 import ButttonComp from "./ButtonComp";
 
 function CardDescription({desc}) {
+   
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = desc.urlCV;
+        link.download = desc.urlCV; // Optional: change filename
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+    
+
+
+
     return ( 
         <div className="bg-card h-fit w-full  rounded-2xl sm:ms-3 p-5 space-y-5">
              <h2 className="text-gray-400">{desc.greeting}</h2>
@@ -13,7 +26,9 @@ function CardDescription({desc}) {
              <span className="text-medium text-green-600 font-medium">{desc.status}</span>
              </div>
 
-              <ButttonComp icon= "fas fa-download" title={desc.btnText} event={() => console.log("here", "other")}/>
+              <ButttonComp icon= "fas fa-download" title={desc.btnText} event={
+               handleDownload
+              }/>
           
         </div>
 

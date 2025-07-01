@@ -54,8 +54,9 @@ function CardExperince({exp}) {
               <ItemCertificate
               key={index}
               downloadUrl={cert.urlPdf}
-              imageUrl = {cert.urlImage}
-              title={"Something"}
+              previewImage = {cert.imageUrl}
+              title={cert.title}
+              btnText = {exp.btnText} 
               />
             ) )
     }

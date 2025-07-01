@@ -1,6 +1,6 @@
 import React from "react";
 
-function ItemCertificate({ previewImage, downloadUrl, title }) {
+function ItemCertificate({ previewImage = null, downloadUrl, title, btnText }) {
   return (
     <div className="flex flex-col items-center space-y-4 bg-tm rounded-2xl drop-shadow-lg w-full p-4 transform transition-transform duration-300 hover:scale-105">
       
@@ -18,9 +18,12 @@ function ItemCertificate({ previewImage, downloadUrl, title }) {
         href={downloadUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+        className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 transition"
       >
-        View / Download
+        <div className="flex p-1 pl-6 pe-6 items-center">
+        <i className= {`fas fa-eye text-white text-lg`}  ></i>
+          <h1 className="pl-6">{btnText}</h1>
+        </div>
       </a>
     </div>
   );
