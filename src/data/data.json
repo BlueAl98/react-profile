@@ -1,4 +1,21 @@
 {
+    "general": 
+      { 
+       "skills": [
+        { "name": "Docker", "icon": "devicon-docker-plain" },
+        { "name": "Java", "icon": "devicon-java-plain" },
+        { "name": "Kotlin", "icon": "devicon-kotlin-plain" },
+        { "name": "React", "icon": "devicon-react-original" },
+        { "name": "Spring boot", "icon": "devicon-spring-plain" },
+        { "name": "Tailwind", "icon": "devicon-tailwindcss-plain" },
+        { "name": "Git", "icon": "devicon-git-plain" },
+        { "name": "Swift", "icon": "devicon-swift-plain" },
+        { "name": "JavaScript", "icon": "devicon-javascript-plain" }
+        ]
+      }
+    
+    ,
+    
     "en": {
       "profile": {
         "name": "Najib Alejandro Loera Rodriguez",
@@ -56,43 +73,45 @@
 
                       "Implemented an automated image processing system to validate and crop official documents, ensuring accuracy and fast delivery.",
 
-                      "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency.",
+                      "Built a route-tracking app for technician installation logistics, improving coordination and operational efficiency."
 
-                      "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
-                  ] 
+                  ],
+                  "date": "04/2023 - Present Culiacán, México" 
               },
               {
                   "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
                   "info" : [
                     "Developed a cross-platform app (Android & iOS) for booking tourist apartments, enhancing the user experience from search to reservation. Used SwiftUI and Jetpack Compose to build a clean, intuitive, and consistent interface across platforms."
-                  ] 
+                  ],
+                  "date": "04/2023 - Present Culiacán, México"  
               },
               {
                   "urlImage": "./logos/lgShitsu.png",
                   "info" : [ "Collaborated on the development of an app that connects university students with companies offering housing.",
                   "Implemented a secure sign-up and login system with personalized user accounts.",
-                  "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."] 
+                  "Developed a feature that allowed users to upload their resumes and automatically send them to registered companies."],
+                  "date": "2021 - 04/2022 Durango, México"
               } 
               ],
               "certificates": [
                 {
-                  "urlImage": "./certificates/aws.pdf",
+                  "urlPdf": "./certificates/aws.pdf",
                   "info" : "algo 2"
                 },
                 {
-                  "urlImage": "./certificates/cludF.pdf",
+                  "urlPdf": "./certificates/cludF.pdf",
                   "info" : "algo 3"
                 },
                 {
-                  "urlImage": "./certificates/googleB.pdf",
+                  "urlPdf": "./certificates/googleB.pdf",
                   "info" : "algo 4"
                 },
                 {
-                  "urlImage": "./certificates/googleCloud.pdf",
+                  "urlPdf": "./certificates/googleCloud.pdf",
                   "info" : "algo 5"
                 },
                 {
-                  "urlImage": "./certificates/vw.pdf",
+                  "urlPdf": "./certificates/vw.pdf",
                   "info" : "algo 6"
                 }
               
@@ -162,14 +181,16 @@
                       
                       "Desarrollé una aplicación para el seguimiento de rutas de técnicos en instalaciones, mejorando la coordinación y eficiencia operativa."
                       
-                    ] 
+                    ],
+                    "date": "04/2023 - Presente Culiacán, México"  
                 },
                 {
                     "urlImage": "https://www.ie-soluciones.com/images/logo_iesoluciones.png",
                     "info" :  [
                       "Creé una aplicación multiplataforma (Android e iOS) para la reserva de departamentos turísticos, mejorando la experiencia del usuario desde la búsqueda hasta la confirmación. Utilicé SwiftUI y Jetpack Compose para lograr una interfaz moderna, intuitiva y consistente."
 
-                    ] 
+                    ],
+                    "date": "04/2023 - Presente Culiacán, México"  
                 },
                 {
                     "urlImage": "./logos/lgShitsu.png",
@@ -177,28 +198,29 @@
                       " Colaboré en el desarrollo de una app que conecta a estudiantes universitarios con empresas que ofrecen residencias.",
                       " Implementé un sistema seguro de registro e inicio de sesión con cuentas personalizadas.",
                       "Desarrollé una función que permitía a los usuarios subir su currículum y enviarlo automáticamente a las empresas registradas."
-                    ]
+                    ],
+                    "date": "2021 - 04/2022 Durango, México"
                 } 
               ],
               "certificates": [
                 {
-                  "urlImage": "./certificates/aws.pdf",
+                  "urlPdf": "./certificates/aws.pdf",
                   "info" : "algo 2"
                 },
                 {
-                  "urlImage": "./certificates/cludF.pdf",
+                  "urlPdf": "./certificates/cludF.pdf",
                   "info" : "algo 3"
                 },
                 {
-                  "urlImage": "./certificates/googleB.pdf",
+                  "urlPdf": "./certificates/googleB.pdf",
                   "info" : "algo 4"
                 },
                 {
-                  "urlImage": "./certificates/googleCloud.pdf",
+                  "urlPdf": "./certificates/googleCloud.pdf",
                   "info" : "algo 5"
                 },
                 {
-                  "urlImage": "./certificates/vw.pdf",
+                  "urlPdf": "./certificates/vw.pdf",
                   "info" : "algo 6"
                 }
               

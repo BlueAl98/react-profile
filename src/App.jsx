@@ -29,7 +29,7 @@ function App() {
         
         <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full ">
             <CardDescription desc={lnDta.description} />      
-            <CardSkills/>
+            <CardSkills skills={data.general.skills}/>
         </div>
       
         </div>

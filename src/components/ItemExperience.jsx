@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function ItemExperience({imageUrl, info}) {
+function ItemExperience({imageUrl, info, date = null }) {
 
     
     return (  
@@ -10,7 +10,11 @@ function ItemExperience({imageUrl, info}) {
      <div className="flex max-h-40">
             <img src={imageUrl}  />
             </div>
-
+           
+            {date != null && (
+             <h4 className="flex w-full justify-end text-sm">{date}</h4>
+              )}
+          
            <div className="text-justify leading-7 ">
 
            <ul className="list-disc pl-6 space-y-3">

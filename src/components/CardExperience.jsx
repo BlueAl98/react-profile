@@ -22,7 +22,11 @@ function CardExperince({exp}) {
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
                 exp.cardsExperience.companies.map( (com, index) => (
-                    <ItemExperience key={index} imageUrl={com.urlImage} info = {com.info} />
+                    <ItemExperience
+                     key={index} 
+                     imageUrl={com.urlImage} 
+                     info = {com.info}
+                     date={com.date}  />
                 ) )
               }
         
@@ -33,7 +37,11 @@ function CardExperince({exp}) {
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
                exp.cardsExperience.projects.map( (com, index) => (
-                    <ItemExperience key={index} imageUrl={com.urlImage} info = {com.info} />
+                    <ItemExperience key={index} 
+                    imageUrl={com.urlImage}
+                    info = {com.info}
+                  
+                     />
                 ) )
         }
             </div>
@@ -45,7 +53,7 @@ function CardExperince({exp}) {
            exp.cardsExperience.certificates.map( (cert, index) => (
               <ItemCertificate
               key={index}
-              downloadUrl={cert.urlImage}
+              downloadUrl={cert.urlPdf}
               imageUrl = {cert.urlImage}
               title={"Something"}
               />
