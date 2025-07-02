@@ -40,6 +40,9 @@ function CardProfile({profile}) {
     <a href="https://linkedin.com/in/najib-alejandro-loera-rodríguez-219648194" target="_blank" rel="noopener noreferrer">
       <i className="fab fa-linkedin text-3xl hover:text-blue-600"></i>
     </a>
+    <a href="https://wa.me/526751153007" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-whatsapp text-3xl hover:text-green-600"></i>
+    </a>
   </div>
 </div>
      );
