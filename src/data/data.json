@@ -27,7 +27,7 @@
         "me": "I’m passionate about software development and building elegant, functional user experiences. I have experience in iOS and Android with SwiftUI and Jetpack Compose, as well as React for web and Spring Boot for backend systems.",
         "status": "Currently accepting freelance projects",
         "btnText": "Download CV",
-        "urlCV" : "./CV.pdf" 
+        "urlCV" : "./CvEng.pdf" 
      },
      
      "experience":{
@@ -184,7 +184,7 @@
         "me": "Me apasiona el desarrollo de software y la creación de experiencias de usuario elegantes y funcionales. Tengo experiencia en iOS y Android con SwiftUI y Jetpack Compose, así como con React para web y Spring Boot para sistemas backend.",
         "status": "Disponible para proyectos freelance",
         "btnText": "Descargar CV",
-        "urlCV" : "./CV.pdf"  
+        "urlCV" : "./CvEsp.pdf" 
     } ,
      "experience":{
         "title": "Experiencia",
