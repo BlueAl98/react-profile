@@ -9,7 +9,7 @@ import data from "./data/data.json"
 
 function App() {
   const [theme, setTheme] = useState('dark')
-  const [lan, setLan] = useState('en')
+  const [lan, setLan] = useState('es')
 
   const lnDta = data[lan]; 
 
@@ -29,7 +29,7 @@ function App() {
         
         <div className="flex flex-1 flex-col  m-1 space-y-5 max-w-full ">
             <CardDescription desc={lnDta.description} />      
-            <CardSkills skills={data.general.skills}/>
+            <CardSkills skills={data.general.skills} title={lnDta.skillTitle}/>
         </div>
       
         </div>

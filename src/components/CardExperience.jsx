@@ -36,11 +36,11 @@ function CardExperince({exp}) {
           return (
             <div className="grid w-full grid-cols-1 md:grid-cols-3 gap-6">
               {
-               exp.cardsExperience.projects.map( (com, index) => (
+               exp.cardsExperience.projects.map( (pro, index) => (
                     <ItemExperience key={index} 
-                    imageUrl={com.urlImage}
-                    info = {com.info}
-                  
+                    imageUrl={pro.urlImage}
+                    info = {pro.info}
+                    text={pro.text}
                      />
                 ) )
         }

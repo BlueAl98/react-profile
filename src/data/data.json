@@ -12,11 +12,10 @@
         { "name": "Swift", "icon": "devicon-swift-plain" },
         { "name": "JavaScript", "icon": "devicon-javascript-plain" }
         ]
-      }
-    
-    ,
+      },
     
     "en": {
+      "skillTitle":"My Skills",
       "profile": {
         "name": "Najib Alejandro Loera Rodriguez",
         "carrer": "Computer Systems Engineer",
@@ -49,7 +48,8 @@
                       "Local data persistence on the Android device.",
                       "Real-time geolocation transmission to the web server.",
                       "User authentication system with secure login." 
-                    ]
+                    ],
+                    "text" : "Android / Java " 
                 },
                 {
                   "urlImage": "./logos/lgTeco.png",
@@ -59,23 +59,55 @@
                     "Synchronization of photos and relevant route information.",
                     "Real-time geolocation tracking and transmission to the server.",
                     "Digital signature module for supervisors within the app, with automatic synchronization when connectivity is restored."
-                  ] 
+                  ],
+                  "text" : "Android / Kotlin"  
               },
               {
                 "urlImage": "./logos/lgSeg.png",
-                "info" : [""] 
+                "info" : [
+                 "Android application developed for real-time management of company security operations across 8 states in Mexico.",
+                 "Real-time incident reporting by security personnel.",
+                 "Integrated alarms to trigger scheduled daily tasks for users.",
+                 "User login and authentication system.",
+                 "Local data persistence to ensure offline functionality.",
+                 "Real-time geolocation transmission to the server."   
+              ],
+              "text" : "Android / Kotlin"    
             },
             {
               "urlImage": "./logos/lgBodega.png",
-              "info" : [""] 
+              "info" : [
+                "Application developed to manage digitalized electoral records after election day in Mexico.",
+                "User login and authentication system.",
+                "Real-time transmission of registered record data from each warehouse.",
+                "QR code scanning for retrieving record information.",
+                "Automatic updates of overall record progress every 10 seconds.",
+                "Real-time geolocation transmission."
+              ],
+              "text" : "Android / Kotlin / JetCompose"   
           },
             {
               "urlImage": "./logos/lgCepi.png",
-              "info" : [""] 
+              "info" : [
+                "A suite of mobile (Android and iOS) and web applications developed for the comprehensive management of patient, parent, and doctor information at the Children's Psychological Training Center.",
+                "Push notifications for important announcements.",
+                "User login and authentication system.",
+                "Registration of authorized personnel.",
+                "Detailed information listings for each team member within the organization."
+              ],
+             "text" : "Android, IOS, WEB / Kotlin, Swift, Angular"   
           },
           {
             "urlImage": "./logos/lgGas.png",
-            "info" : [""] 
+            "info" : [
+            "Cross-platform application developed for booking apartments in Mazatlán.",
+            "Notifications for important events and reminders.",
+            "User login and authentication system.",
+            "Intuitive calendar interface for selecting reservation dates.",
+            "Local data persistence to support offline functionality.",
+            "Reservation history tracking for each user."
+            ],
+            "text" : "Android, IOS, WEB / Kotlin, Swift, Angular"   
         }],
               "companies":[
                 {
@@ -141,6 +173,7 @@
 
     },
     "es": {
+      "skillTitle":"Mis habilidades",
       "profile": {
         "name": "Najib Alejandro Loera Rodriguez",
         "carrer": "Ing. Sistemas Computacionales",
@@ -171,7 +204,8 @@
                     "Persistencia de datos local en el dispositivo Android.",
                     "Envío en tiempo real de geolocalización al servidor web.",
                     "Sistema de autenticación de usuarios mediante login."
-                  ]
+                  ],
+                  "text" : "Android / Java"
               },
               {
                 "urlImage": "./logos/lgTeco.png",
@@ -181,23 +215,55 @@
                   "Sincronización de fotografías e información relevante del recorrido.",
                   "Envío de geolocalización en tiempo real al servidor.",
                   "Módulo de firma digital para responsables desde la aplicación, con sincronización automática al restablecer la conexión."
-                ] 
+                ],
+                "text" : "Android / Kotlin" 
             },
             {
               "urlImage": "./logos/lgSeg.png",
-              "info" : [""] 
+              "info" : [
+                "Aplicación Android desarrollada para la gestión de operaciones de seguridad empresarial en tiempo real, abarcando 8 estados de México.",
+                "Envío de reportes de incidencias en tiempo real por parte del personal de seguridad.",
+                "Alarmas integradas para la ejecución de tareas programadas diariamente.",
+                "Sistema de autenticación de usuarios mediante login.",
+                "Persistencia de datos local que permite el funcionamiento offline de la aplicación.",
+                "Envío de geolocalización en tiempo real al servidor."
+            ],
+            "text" : "Android / Kotlin" 
           },
           {
             "urlImage": "./logos/lgBodega.png",
-            "info" : [""] 
+            "info" : [
+              "Aplicación desarrollada para llevar el control de las actas digitalizadas tras el día de elecciones en México.",
+              "Sistema de login para autenticación de usuarios.",
+              "Envío en tiempo real de información de actas registradas en cada bodega.",
+              "Escaneo de códigos QR para obtener los datos del acta.",
+              "Actualización del progreso total de actas cada 10 segundos.",
+              "Envío de geolocalización en tiempo real."
+            ],
+            "text" : "Android / Kotlin / JetCompose"  
         },
           {
             "urlImage": "./logos/lgCepi.png",
-            "info" : [""] 
+            "info" : [
+              "Conjunto de aplicaciones móviles (Android e iOS) y plataforma web desarrolladas para la gestión integral de información de pacientes, padres y doctores del Centro de Entrenamiento Psicológico Infantil.",
+              "Notificaciones automáticas para avisos importantes.",
+              "Sistema de login y autenticación de usuarios.",
+              "Registro de personal autorizado.",
+              "Listado detallado de información de cada colaborador de la organización."
+            ],
+            "text" : "Android, IOS, WEB / Kotlin, Swift, Angular"   
         },
         {
           "urlImage": "./logos/lgGas.png",
-          "info" : [""] 
+          "info" : [
+            "Aplicación multiplataforma desarrollada para la reserva de departamentos en Mazatlán.",
+            "Notificaciones para eventos y recordatorios importantes.",
+            "Sistema de login para autenticación de usuarios.",
+            "Calendario intuitivo para la selección de fechas de reservación.",
+            "Persistencia de datos local para funcionamiento en modo offline.",
+            "Historial de reservaciones para cada usuario."
+          ],
+          "text" : "Android, IOS, WEB / Kotlin, Swift, Angular"  
       }  
               ],
               "companies":[

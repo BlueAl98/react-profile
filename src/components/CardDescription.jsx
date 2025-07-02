@@ -11,8 +11,6 @@ function CardDescription({desc}) {
         link.click();
         document.body.removeChild(link);
       };
-    
-
 
 
     return ( 
